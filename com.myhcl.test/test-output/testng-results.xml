@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Scenario Test" duration-ms="245898" started-at="2020-12-30T16:39:05 IST" finished-at="2020-12-30T16:43:11 IST">
+    <groups>
+    </groups>
+    <test name="Sign In" duration-ms="41856" started-at="2020-12-30T16:39:05 IST" finished-at="2020-12-30T16:39:47 IST">
+      <class name="testCases.LoginPage_TS_001">
+        <test-method status="PASS" signature="bfTest()[pri:0, instance:testCases.LoginPage_TS_001@76b0bfab]" name="bfTest" is-config="true" duration-ms="6475" started-at="2020-12-30T16:39:05 IST" finished-at="2020-12-30T16:39:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testCases.LoginPage_TS_001@76b0bfab]" name="loginTest" duration-ms="35294" started-at="2020-12-30T16:39:11 IST" finished-at="2020-12-30T16:39:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afTest()[pri:0, instance:testCases.LoginPage_TS_001@76b0bfab]" name="afTest" is-config="true" duration-ms="0" started-at="2020-12-30T16:39:47 IST" finished-at="2020-12-30T16:39:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest -->
+      </class> <!-- testCases.LoginPage_TS_001 -->
+    </test> <!-- Sign In -->
+    <test name="iSuccess Learning" duration-ms="60166" started-at="2020-12-30T16:39:47 IST" finished-at="2020-12-30T16:40:48 IST">
+      <class name="testCases.IsuccessLearnPage_TS_002">
+        <test-method status="PASS" signature="navLink()[pri:1, instance:testCases.IsuccessLearnPage_TS_002@23d2a7e8]" name="navLink" duration-ms="5436" started-at="2020-12-30T16:39:47 IST" finished-at="2020-12-30T16:39:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navLink -->
+        <test-method status="PASS" signature="navToIlearn()[pri:2, instance:testCases.IsuccessLearnPage_TS_002@23d2a7e8]" name="navToIlearn" duration-ms="10840" started-at="2020-12-30T16:39:53 IST" finished-at="2020-12-30T16:40:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navToIlearn -->
+        <test-method status="PASS" signature="viewHistory()[pri:3, instance:testCases.IsuccessLearnPage_TS_002@23d2a7e8]" name="viewHistory" duration-ms="33694" started-at="2020-12-30T16:40:04 IST" finished-at="2020-12-30T16:40:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewHistory -->
+        <test-method status="PASS" signature="closeIsuccess()[pri:0, instance:testCases.IsuccessLearnPage_TS_002@23d2a7e8]" name="closeIsuccess" is-config="true" duration-ms="10185" started-at="2020-12-30T16:40:37 IST" finished-at="2020-12-30T16:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIsuccess -->
+      </class> <!-- testCases.IsuccessLearnPage_TS_002 -->
+    </test> <!-- iSuccess Learning -->
+    <test name="India LMS" duration-ms="38947" started-at="2020-12-30T16:40:48 IST" finished-at="2020-12-30T16:41:27 IST">
+      <class name="testCases.LMSPage_TS_003">
+        <test-method status="PASS" signature="navLink()[pri:1, instance:testCases.LMSPage_TS_003@45820e51]" name="navLink" duration-ms="3322" started-at="2020-12-30T16:40:48 IST" finished-at="2020-12-30T16:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navLink -->
+        <test-method status="PASS" signature="navToLms()[pri:2, instance:testCases.LMSPage_TS_003@45820e51]" name="navToLms" duration-ms="10059" started-at="2020-12-30T16:40:51 IST" finished-at="2020-12-30T16:41:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navToLms -->
+        <test-method status="PASS" signature="pageCtrlLms()[pri:3, instance:testCases.LMSPage_TS_003@45820e51]" name="pageCtrlLms" duration-ms="15426" started-at="2020-12-30T16:41:01 IST" finished-at="2020-12-30T16:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageCtrlLms -->
+        <test-method status="PASS" signature="closeLms()[pri:0, instance:testCases.LMSPage_TS_003@45820e51]" name="closeLms" is-config="true" duration-ms="10122" started-at="2020-12-30T16:41:16 IST" finished-at="2020-12-30T16:41:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLms -->
+      </class> <!-- testCases.LMSPage_TS_003 -->
+    </test> <!-- India LMS -->
+    <test name="Meme" duration-ms="97529" started-at="2020-12-30T16:41:27 IST" finished-at="2020-12-30T16:43:04 IST">
+      <class name="testCases.MemePage_TS_004">
+        <test-method status="PASS" signature="navLink()[pri:1, instance:testCases.MemePage_TS_004@4923ab24]" name="navLink" duration-ms="3378" started-at="2020-12-30T16:41:27 IST" finished-at="2020-12-30T16:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navLink -->
+        <test-method status="PASS" signature="navToMeme()[pri:2, instance:testCases.MemePage_TS_004@4923ab24]" name="navToMeme" duration-ms="10048" started-at="2020-12-30T16:41:30 IST" finished-at="2020-12-30T16:41:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navToMeme -->
+        <test-method status="PASS" signature="addMemeProfPic()[pri:3, instance:testCases.MemePage_TS_004@4923ab24]" name="addMemeProfPic" duration-ms="73978" started-at="2020-12-30T16:41:40 IST" finished-at="2020-12-30T16:42:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMemeProfPic -->
+        <test-method status="PASS" signature="closeMeme()[pri:0, instance:testCases.MemePage_TS_004@4923ab24]" name="closeMeme" is-config="true" duration-ms="10112" started-at="2020-12-30T16:42:54 IST" finished-at="2020-12-30T16:43:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMeme -->
+      </class> <!-- testCases.MemePage_TS_004 -->
+    </test> <!-- Meme -->
+    <test name="Sign Out" duration-ms="6711" started-at="2020-12-30T16:43:04 IST" finished-at="2020-12-30T16:43:11 IST">
+      <class name="testCases.LogoutPage_TS_005">
+        <test-method status="PASS" signature="logout()[pri:1, instance:testCases.LogoutPage_TS_005@7a3d45bd]" name="logout" duration-ms="5077" started-at="2020-12-30T16:43:04 IST" finished-at="2020-12-30T16:43:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.LogoutPage_TS_005@7a3d45bd]" name="quitBrowser" is-config="true" duration-ms="1631" started-at="2020-12-30T16:43:09 IST" finished-at="2020-12-30T16:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.LogoutPage_TS_005 -->
+    </test> <!-- Sign Out -->
+  </suite> <!-- Scenario Test -->
+</testng-results>

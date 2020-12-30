@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Scenario Test">
+
+	<test name="Sign In">
+		<classes>
+			<class name="testCases.LoginPage_TS_001"></class>
+		</classes>
+	</test>
+
+	<test name="iSuccess Learning">
+		<classes>
+			<class name="testCases.IsuccessLearnPage_TS_002"></class>
+		</classes>
+	</test>
+
+	<test name="India LMS">
+		<classes>
+			<class name="testCases.LMSPage_TS_003"></class>
+		</classes>
+	</test>
+
+	<test name="Meme">
+		<classes>
+			<class name="testCases.MemePage_TS_004"></class>
+		</classes>
+	</test>
+
+	<test name="Sign Out">
+		<classes>
+			<class name="testCases.LogoutPage_TS_005"></class>
+		</classes>
+	</test>
+
+</suite>
